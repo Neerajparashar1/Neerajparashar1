@@ -6,11 +6,17 @@
       <stop offset="100%" stop-color="#080c14" stop-opacity="0.9" />
     </linearGradient>
 
+    <!-- Dynamic Cycling Gradient Border -->
     <linearGradient id="metricBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
-      <stop offset="33%" stop-color="#f59e0b" stop-opacity="0.6" />
-      <stop offset="66%" stop-color="#10b981" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.6" />
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7">
+        <animate attributeName="stop-color" values="#38bdf8;#f59e0b;#10b981;#a855f7;#38bdf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.7">
+        <animate attributeName="stop-color" values="#10b981;#a855f7;#38bdf8;#f59e0b;#10b981" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.7">
+        <animate attributeName="stop-color" values="#a855f7;#38bdf8;#f59e0b;#10b981;#a855f7" dur="8s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
 
     <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
@@ -23,7 +29,7 @@
     .metric-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #94a3b8; letter-spacing: 0.5px; }
   </style>
 
-  <!-- Container Box with Gradient Border -->
+  <!-- Container Box with Dynamic Shifting Gradient Border -->
   <rect x="2" y="2" width="936" height="76" rx="12" fill="url(#metricBg)" stroke="url(#metricBorder)" stroke-width="1.5" filter="url(#glow)" />
 
   <!-- Divider Lines -->
@@ -33,7 +39,9 @@
 
   <!-- Metric 1: Cloud & Serverless -->
   <g transform="translate(30, 26)">
-    <circle cx="16" cy="14" r="14" fill="#38bdf8" fill-opacity="0.15" />
+    <circle cx="16" cy="14" r="14" fill="#38bdf8" fill-opacity="0.15">
+      <animate attributeName="fill-opacity" values="0.15;0.35;0.15" dur="2.5s" repeatCount="indefinite" />
+    </circle>
     <text x="16" y="19" font-size="14" text-anchor="middle">☁️</text>
     <text x="40" y="12" fill="#f8fafc" class="metric-value">AWS Serverless</text>
     <text x="40" y="27" class="metric-label">LAMBDA • EC2 • BOTO3</text>
@@ -41,7 +49,9 @@
 
   <!-- Metric 2: AI & LLMs -->
   <g transform="translate(265, 26)">
-    <circle cx="16" cy="14" r="14" fill="#10b981" fill-opacity="0.15" />
+    <circle cx="16" cy="14" r="14" fill="#10b981" fill-opacity="0.15">
+      <animate attributeName="fill-opacity" values="0.15;0.35;0.15" dur="2.8s" repeatCount="indefinite" />
+    </circle>
     <text x="16" y="19" font-size="14" text-anchor="middle">🤖</text>
     <text x="40" y="12" fill="#f8fafc" class="metric-value">Applied AI Systems</text>
     <text x="40" y="27" class="metric-label">OPENAI • LLM AGENTS • CHAT</text>
@@ -49,7 +59,9 @@
 
   <!-- Metric 3: Web Scraping & Automation -->
   <g transform="translate(500, 26)">
-    <circle cx="16" cy="14" r="14" fill="#f59e0b" fill-opacity="0.15" />
+    <circle cx="16" cy="14" r="14" fill="#f59e0b" fill-opacity="0.15">
+      <animate attributeName="fill-opacity" values="0.15;0.35;0.15" dur="2.6s" repeatCount="indefinite" />
+    </circle>
     <text x="16" y="19" font-size="14" text-anchor="middle">⚡</text>
     <text x="40" y="12" fill="#f8fafc" class="metric-value">ETL &amp; Web Scraping</text>
     <text x="40" y="27" class="metric-label">SELENIUM • HEADLESS DOM</text>
@@ -57,7 +69,9 @@
 
   <!-- Metric 4: Full-Stack Architecture -->
   <g transform="translate(735, 26)">
-    <circle cx="16" cy="14" r="14" fill="#a855f7" fill-opacity="0.15" />
+    <circle cx="16" cy="14" r="14" fill="#a855f7" fill-opacity="0.15">
+      <animate attributeName="fill-opacity" values="0.15;0.35;0.15" dur="3s" repeatCount="indefinite" />
+    </circle>
     <text x="16" y="19" font-size="14" text-anchor="middle">🏛️</text>
     <text x="40" y="12" fill="#f8fafc" class="metric-value">Full-Stack &amp; CMS</text>
     <text x="40" y="27" class="metric-label">NODE • PHP • REST • MYSQL</text>

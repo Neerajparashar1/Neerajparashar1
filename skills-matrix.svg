@@ -5,30 +5,41 @@
       <stop offset="100%" stop-color="#070a12" />
     </linearGradient>
 
-    <!-- Bar Gradients -->
+    <!-- Dynamic Shimmer Bar Gradients with Moving Light Wave -->
     <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="70%" stop-color="#38bdf8" />
+      <stop offset="90%" stop-color="#bae6fd">
+        <animate attributeName="stop-color" values="#bae6fd;#38bdf8;#bae6fd" dur="2s" repeatCount="indefinite" />
+      </stop>
       <stop offset="100%" stop-color="#38bdf8" />
     </linearGradient>
 
     <linearGradient id="barEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#059669" />
+      <stop offset="70%" stop-color="#10b981" />
+      <stop offset="90%" stop-color="#a7f3d0">
+        <animate attributeName="stop-color" values="#a7f3d0;#10b981;#a7f3d0" dur="2.2s" repeatCount="indefinite" />
+      </stop>
       <stop offset="100%" stop-color="#10b981" />
     </linearGradient>
 
     <linearGradient id="barAmber" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#d97706" />
+      <stop offset="70%" stop-color="#f59e0b" />
+      <stop offset="90%" stop-color="#fde68a">
+        <animate attributeName="stop-color" values="#fde68a;#f59e0b;#fde68a" dur="2.4s" repeatCount="indefinite" />
+      </stop>
       <stop offset="100%" stop-color="#f59e0b" />
     </linearGradient>
 
     <linearGradient id="barIndigo" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="70%" stop-color="#818cf8" />
+      <stop offset="90%" stop-color="#c7d2fe">
+        <animate attributeName="stop-color" values="#c7d2fe;#818cf8;#c7d2fe" dur="2.6s" repeatCount="indefinite" />
+      </stop>
       <stop offset="100%" stop-color="#818cf8" />
-    </linearGradient>
-
-    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#9333ea" />
-      <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
@@ -51,9 +62,18 @@
     <rect x="0" y="0" width="5" height="18" rx="2.5" fill="#38bdf8" />
     <text x="14" y="14" class="header">ENGINEERING COMPETENCY &amp; SPECIALIZATION RADAR</text>
     
-    <rect x="740" y="-3" width="150" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
-    <circle cx="754" cy="9" r="4" fill="#10b981" />
-    <text x="766" y="13" fill="#94a3b8" class="badge-text">PRODUCTION VERIFIED</text>
+    <!-- Pulsing Live Badge -->
+    <g transform="translate(740, -3)">
+      <rect width="150" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <circle cx="14" cy="12" r="3.5" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="14" cy="12" r="7" fill="none" stroke="#10b981" stroke-width="1">
+        <animate attributeName="r" values="3;8" dur="1.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+      <text x="26" y="16" fill="#94a3b8" class="badge-text">PRODUCTION LIVE</text>
+    </g>
   </g>
 
   <!-- Divider Line -->
@@ -63,9 +83,7 @@
   <g transform="translate(24, 68)">
     <text x="0" y="14" class="skill-label">☁️ AWS Cloud &amp; Serverless Infrastructure (Lambda, EC2, S3, API GW)</text>
     <text x="890" y="14" fill="#38bdf8" class="skill-val" text-anchor="end">95%</text>
-    <!-- Background Track -->
     <rect x="0" y="22" width="892" height="8" rx="4" fill="#1e293b" />
-    <!-- Glowing Filled Bar -->
     <rect x="0" y="22" width="847" height="8" rx="4" fill="url(#barCyan)" />
   </g>
 

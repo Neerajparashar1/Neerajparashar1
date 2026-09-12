@@ -73,8 +73,19 @@
   <g transform="translate(25, 25)">
     <rect width="435" height="195" rx="12" fill="url(#cardFill)" stroke="url(#borderCyan)" stroke-width="1.5" filter="url(#pShadow)" />
     <text x="20" y="32" class="p-title">🤖 NeerajGPT</text>
-    <rect x="290" y="16" width="125" height="20" rx="10" fill="url(#pillCyan)" stroke="#38bdf8" stroke-width="1" />
-    <text x="352" y="30" fill="#38bdf8" class="p-badge" text-anchor="middle">LIVE AI ENGINE</text>
+    
+    <!-- Animated Pulsing Radar Beacon -->
+    <g transform="translate(290, 16)">
+      <rect width="125" height="20" rx="10" fill="url(#pillCyan)" stroke="#38bdf8" stroke-width="1" />
+      <circle cx="12" cy="10" r="3" fill="#38bdf8">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="12" cy="10" r="6" fill="none" stroke="#38bdf8" stroke-width="1">
+        <animate attributeName="r" values="3;7" dur="1.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0" dur="1.6s" repeatCount="indefinite" />
+      </circle>
+      <text x="68" y="14" fill="#38bdf8" class="p-badge" text-anchor="middle">LIVE AI ENGINE</text>
+    </g>
 
     <text x="20" y="52" class="p-desc">Generative AI Conversational Assistant &amp; LLM Stream</text>
 
@@ -109,8 +120,19 @@
   <g transform="translate(480, 25)">
     <rect width="435" height="195" rx="12" fill="url(#cardFill)" stroke="url(#borderAmber)" stroke-width="1.5" filter="url(#pShadow)" />
     <text x="20" y="32" class="p-title">☁️ AWS Cloud Orchestrator</text>
-    <rect x="300" y="16" width="115" height="20" rx="10" fill="url(#pillAmber)" stroke="#f59e0b" stroke-width="1" />
-    <text x="357" y="30" fill="#f59e0b" class="p-badge" text-anchor="middle">SERVERLESS EC2</text>
+    
+    <!-- Animated Pulsing Radar Beacon -->
+    <g transform="translate(300, 16)">
+      <rect width="115" height="20" rx="10" fill="url(#pillAmber)" stroke="#f59e0b" stroke-width="1" />
+      <circle cx="12" cy="10" r="3" fill="#f59e0b">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="12" cy="10" r="6" fill="none" stroke="#f59e0b" stroke-width="1">
+        <animate attributeName="r" values="3;7" dur="1.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+      <text x="63" y="14" fill="#f59e0b" class="p-badge" text-anchor="middle">SERVERLESS</text>
+    </g>
 
     <text x="20" y="52" class="p-desc">Event-Driven Compute Lifecycle &amp; Cost Optimizer</text>
 
@@ -145,8 +167,19 @@
   <g transform="translate(25, 240)">
     <rect width="435" height="195" rx="12" fill="url(#cardFill)" stroke="url(#borderPurple)" stroke-width="1.5" filter="url(#pShadow)" />
     <text x="20" y="32" class="p-title">🏛️ Campus &amp; CMS Portal</text>
-    <rect x="290" y="16" width="125" height="20" rx="10" fill="url(#pillPurple)" stroke="#a855f7" stroke-width="1" />
-    <text x="352" y="30" fill="#a855f7" class="p-badge" text-anchor="middle">ENTERPRISE CMS</text>
+    
+    <!-- Animated Pulsing Radar Beacon -->
+    <g transform="translate(290, 16)">
+      <rect width="125" height="20" rx="10" fill="url(#pillPurple)" stroke="#a855f7" stroke-width="1" />
+      <circle cx="12" cy="10" r="3" fill="#a855f7">
+        <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="12" cy="10" r="6" fill="none" stroke="#a855f7" stroke-width="1">
+        <animate attributeName="r" values="3;7" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="68" y="14" fill="#a855f7" class="p-badge" text-anchor="middle">ENTERPRISE CMS</text>
+    </g>
 
     <text x="20" y="52" class="p-desc">Academic Operations &amp; Accreditation Management</text>
 
@@ -181,8 +214,19 @@
   <g transform="translate(480, 240)">
     <rect width="435" height="195" rx="12" fill="url(#cardFill)" stroke="url(#borderEmerald)" stroke-width="1.5" filter="url(#pShadow)" />
     <text x="20" y="32" class="p-title">⚡ Web Scraping &amp; ETL Suite</text>
-    <rect x="290" y="16" width="125" height="20" rx="10" fill="url(#pillEmerald)" stroke="#10b981" stroke-width="1" />
-    <text x="352" y="30" fill="#10b981" class="p-badge" text-anchor="middle">INDUSTRIAL ETL</text>
+    
+    <!-- Animated Pulsing Radar Beacon -->
+    <g transform="translate(290, 16)">
+      <rect width="125" height="20" rx="10" fill="url(#pillEmerald)" stroke="#10b981" stroke-width="1" />
+      <circle cx="12" cy="10" r="3" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.7s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="12" cy="10" r="6" fill="none" stroke="#10b981" stroke-width="1">
+        <animate attributeName="r" values="3;7" dur="1.7s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0" dur="1.7s" repeatCount="indefinite" />
+      </circle>
+      <text x="68" y="14" fill="#10b981" class="p-badge" text-anchor="middle">INDUSTRIAL ETL</text>
+    </g>
 
     <text x="20" y="52" class="p-desc">Headless Dynamic Extraction &amp; Pipeline Cleansing</text>
 
