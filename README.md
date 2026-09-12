@@ -1,36 +1,40 @@
 <a id="top"></a>
 
 <!-- ================================================================= -->
-<!-- 🌐 HERO / HEADER SECTION (Website Style Dynamic Banner)            -->
+<!-- 🌐 HERO / HEADER SECTION (Google / Staff Engineer Aesthetic)        -->
 <!-- ================================================================= -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Neeraj%20Parashar&fontSize=42&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20Cloud%20Architect%20%E2%80%A2%20AI%20Engineer&descAlignY=58&descSize=18" width="100%" alt="Neeraj Parashar Hero Banner" />
 
-  <!-- Dynamic Typing Subtitle -->
+  <!-- Dynamic Gradient Hero Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a73e8,100:0b0f19&height=220&section=header&text=Neeraj%20Parashar&fontSize=42&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20Cloud%20Architect%20%E2%80%A2%20AI%20Systems&descAlignY=58&descSize=17" width="100%" alt="Neeraj Parashar Hero Banner" />
+
+  <!-- Animated Real-Time Typing Stream -->
   <a href="https://github.com/Neerajparashar1">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Crafting+Scalable+Cloud+Architectures+%E2%98%81%EF%B8%8F;Building+Next-Gen+AI+Chatbots+%26+Agents+%F0%9F%A4%96;Automating+Complex+Workflows+%26+Scrapers+%E2%9A%A1;Full-Stack+Web+Solutions+that+Scale+%F0%9F%9A%80" alt="Dynamic Typing Subtitle" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=60A5FA&center=true&vCenter=true&width=650&lines=Building+Reliable+Scalable+Cloud+Architectures;Pioneering+AI+Chatbots+%26+Intelligent+Autonomous+Agents;Automating+Large-Scale+ETL+%26+Web+Data+Pipelines;Crafting+Production-Ready+Full-Stack+Platforms" alt="Dynamic Typing Stream" />
   </a>
 
   <br/><br/>
 
-  <!-- Website Style Navigation Bar -->
+  <!-- Top Navigation Bar -->
   <p align="center">
-    <a href="#about-me"><b>👨‍💻 ABOUT</b></a> &nbsp;•&nbsp;
+    <a href="#about-me"><b>🧑‍💻 ABOUT</b></a> &nbsp;•&nbsp;
+    <a href="#architecture"><b>🏛️ ARCHITECTURE</b></a> &nbsp;•&nbsp;
     <a href="#tech-stack"><b>🛠️ TECH STACK</b></a> &nbsp;•&nbsp;
     <a href="#featured-projects"><b>🚀 PROJECTS</b></a> &nbsp;•&nbsp;
     <a href="#github-analytics"><b>📊 ANALYTICS</b></a> &nbsp;•&nbsp;
-    <a href="#roadmap"><b>🎯 ROADMAP</b></a> &nbsp;•&nbsp;
+    <a href="#engineering-standards"><b>⚙️ STANDARDS</b></a> &nbsp;•&nbsp;
     <a href="#contact"><b>📬 CONTACT</b></a>
   </p>
 
-  <!-- Live Status & Quick Action Badges -->
+  <!-- Live KPI & Action Badges -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Status-Available%20for%20Projects%20%26%20Roles-22c55e?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
-    <img src="https://img.shields.io/badge/Focus-AI%20%26%20Cloud%20Serverless-38bdf8?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Focus" />
+    <img src="https://img.shields.io/badge/Role-Software%20%26%20Cloud%20Engineer-1a73e8?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Role" />
+    <img src="https://img.shields.io/badge/AWS-Serverless%20Architecture-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Serverless" />
+    <img src="https://img.shields.io/badge/AI-LLMs%20%26%20Automation-10B981?style=for-the-badge&logo=openai&logoColor=white" alt="AI Focus" />
     <a href="mailto:np5668342@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Get%20In%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Contact-Get%20In%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Email" />
     </a>
-    <img src="https://komarev.com/ghpvc/?username=Neerajparashar1&label=PROFILE%20VIEWS&color=0284c7&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=Neerajparashar1&label=PROFILE%20VIEWS&color=1a73e8&style=for-the-badge" alt="Profile Views" />
   </p>
 
 </div>
@@ -39,41 +43,70 @@
 
 <a id="about-me"></a>
 <!-- ================================================================= -->
-<!-- 👨‍💻 SECTION 1: ABOUT ME & TERMINAL PROFILE                        -->
+<!-- 🧑‍💻 SECTION 1: DEVELOPER TERMINAL PROFILE                           -->
 <!-- ================================================================= -->
-### 👨‍💻 `developer.config`
+### 🧑‍💻 Engineering Profile & Terminal
+
+```bash
+neeraj@workstation:~$ cat profile.json
+```
 
 ```json
 {
-  "developer": {
+  "engineer": {
     "name": "Neeraj Parashar",
-    "title": "Full-Stack Software Engineer & Cloud Solutions Architect",
+    "title": "Software Engineer & Cloud Architect",
     "location": "India 🇮🇳",
-    "specialties": [
-      "Generative AI & LLM Chatbots",
-      "AWS Cloud Infrastructure (Serverless & Compute)",
-      "High-Performance Web Scraping & Data Automation",
-      "Full-Stack Web Platforms & Institutional CMS"
+    "core_competencies": [
+      "Event-Driven Cloud Infrastructure (AWS Lambda, EC2, S3, API Gateway)",
+      "Applied AI / Large Language Models (LLMs) & Conversational Agents",
+      "High-Throughput Web Scraping & Automated Data Harvesting",
+      "Full-Stack Web Systems & Institutional CMS Platforms"
     ],
-    "philosophy": "Writing clean, scalable code that turns manual complexity into effortless automation.",
-    "hobbies": ["System Architecture", "Open Source Exploration", "Tech Experimentation"]
+    "engineering_mindset": "Design for scale, automate relentlessly, and write clean, maintainable systems.",
+    "current_status": "🟢 Available for high-impact software engineering opportunities & collaborations."
   }
 }
 ```
 
-#### 🌟 Executive Summary:
-- 🚀 **Full-Stack Development:** Experienced in engineering robust web applications, scalable RESTful APIs, and full-scale institutional management platforms with responsive UIs and secure backends.
-- ☁️ **AWS Cloud Architecture:** Practical expertise architecting serverless deployments, managing compute instances with **AWS Lambda**, **EC2**, **S3**, **API Gateway**, and infrastructure monitoring via **CloudWatch**.
-- 🤖 **AI & Autonomous Agents:** Passionate about integrating cutting-edge LLMs (OpenAI, Gemini), intelligent chat systems, and automated agent workflows.
-- ⚡ **Web Automation & Scraping:** Master of headless automated data extraction (Selenium, Puppeteer, BeautifulSoup) for rapid data transformation and analysis.
+#### 📌 Executive Summary
+- ⚡ **Cloud & Serverless Engineering:** Architect of resilient cloud backends utilizing AWS services. Experienced with event-driven execution, compute orchestration, least-privilege IAM security, and cost optimization.
+- 🤖 **Applied AI & Intelligent Agents:** Focused on building practical AI systems, prompt-engineered interfaces, conversational chatbots, and multi-turn LLM integrations.
+- 🌐 **Enterprise Web Platforms:** Proven ability to build full-scale web platforms featuring robust Role-Based Access Control (RBAC), relational database models, and responsive interfaces.
+- 🕷️ **Industrial Web Scraping & Automation:** Deep experience building resilient extraction pipelines with headless Selenium and BeautifulSoup, designed to handle dynamic single-page applications and complex workflows.
+
+---
+
+<a id="architecture"></a>
+<!-- ================================================================= -->
+<!-- 🏛️ SECTION 2: END-TO-END SYSTEM ARCHITECTURE BLUEPRINT             -->
+<!-- ================================================================= -->
+### 🏛️ System Design & Architecture Pattern
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                 HIGH-LEVEL SYSTEM ARCHITECTURE                              │
+├─────────────────┐       ┌─────────────────┐       ┌─────────────────┐       ┌───────────────┤
+│   Client Layer  │ ───►  │  Edge / Routing │ ───►  │ Compute Engine  │ ───►  │ AI & Services │
+│ (Responsive Web)│       │(API GW / Nginx) │       │(Lambda/EC2/Node)│       │ (OpenAI/LLMs) │
+└─────────────────┘       └─────────────────┘       └────────┬────────┘       └───────────────┘
+                                                             │
+                                                             ▼
+                                                    ┌─────────────────┐
+                                                    │ Storage & Data  │
+                                                    │(S3 / MySQL / DB)│
+                                                    └─────────────────┘
+```
+
+> **Design Tenets:** *Decoupled microservices, fault-tolerant retries with exponential backoff, automated zero-idle cost, and strict environment isolation.*
 
 ---
 
 <a id="tech-stack"></a>
 <!-- ================================================================= -->
-<!-- 🛠️ SECTION 2: TECH STACK (Modern Interactive App-Icon Grid)       -->
+<!-- 🛠️ SECTION 3: ENTERPRISE TECH STACK MATRIX                        -->
 <!-- ================================================================= -->
-### 🛠️ Interactive Tech Stack & Ecosystem
+### 🛠️ Production Tech Stack & Tooling
 
 <div align="center">
 
@@ -87,46 +120,46 @@
 #### ☁️ Cloud, DevOps & Infrastructure
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github,postman,vscode" alt="Cloud & DevOps" />
+    <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github,postman,vscode" alt="Cloud and DevOps" />
   </a>
 </p>
 
-#### 🌐 Backend, APIs & Full-Stack Frameworks
+#### 🌐 Backend, Databases & Frameworks
 <p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mysql,postgres,mongodb,tailwind" alt="Backend & Databases" />
   </a>
 </p>
 
+</div>
+
 <br/>
 
-<!-- Detailed Skill Badges -->
-| Domain | Technologies & Frameworks |
+| Technical Pillar | Production Tools & Technologies |
 | :--- | :--- |
-| **Languages** | `Python` `JavaScript (ES6+)` `PHP` `SQL` `HTML5` `CSS3` `Bash` `PowerShell` |
-| **Cloud & DevOps** | `AWS (EC2, Lambda, S3, API Gateway, CloudWatch)` `Docker` `Git` `GitHub Actions` `Linux` |
-| **AI & Automation** | `OpenAI API` `LLM Chatbots` `Selenium WebDriver` `BeautifulSoup` `Headless Scraping` `REST APIs` |
-| **Backend & Web** | `Node.js` `Express.js` `FastAPI` `MySQL` `PostgreSQL` `Tailwind CSS` `Bootstrap` |
-| **Tools & IDEs** | `VS Code` `Postman` `AWS CLI` `GitHub CLI` `PyCharm` `Chrome DevTools` |
-
-</div>
+| **Languages** | `Python 3.x` `JavaScript (ES6+)` `PHP` `SQL` `HTML5 / CSS3` `Bash` `PowerShell` |
+| **Cloud Infrastructure (AWS)** | `AWS Lambda (Serverless)` `Amazon EC2` `Amazon S3` `API Gateway` `CloudWatch` `IAM` `Boto3` |
+| **Artificial Intelligence** | `OpenAI API` `Gemini AI Integration` `LLM Chatbots` `Prompt Engineering` `Streaming APIs` |
+| **Web Scraping & Automation** | `Selenium WebDriver` `BeautifulSoup4` `Headless Chrome` `ETL Pipelines` `Task Scheduling` |
+| **Backend & Frameworks** | `Node.js` `Express.js` `FastAPI` `RESTful Architecture` `MySQL` `PostgreSQL` `MongoDB` |
+| **DevOps & Tooling** | `Git / GitHub` `Docker` `Linux Systems Administration` `Postman` `VS Code` `GitHub CLI` |
 
 ---
 
 <a id="featured-projects"></a>
 <!-- ================================================================= -->
-<!-- 🚀 SECTION 3: FEATURED PROJECTS (Portfolio Cards)                 -->
+<!-- 🚀 SECTION 4: FEATURED ENGINEERING PROJECTS                        -->
 <!-- ================================================================= -->
-### 🚀 Featured Engineering Projects
+### 🚀 Featured Engineering Projects & Case Studies
 
 <div align="center">
 
-| Project Showcase | Description & Highlights | Tech Stack | Live Links |
+| Project & Architectural Overview | Key Engineering Highlights | Tech Stack | Repository |
 | :--- | :--- | :--- | :---: |
-| <br/>🤖 **NeerajGPT**<br/><sub>*AI Conversational Engine*</sub><br/><br/> | • High-performance AI chatbot powered by modern LLM APIs<br/>• Real-time message streaming, intuitive UI & context awareness<br/>• Modular API architecture for custom AI workflows | `JavaScript`<br/>`HTML5/CSS3`<br/>`AI APIs` | <br/>[![Explore](https://img.shields.io/badge/Explore_Repo-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1/NeerajGPT)<br/><br/> |
-| <br/>☁️ **AWS Cloud Orchestrator**<br/><sub>*Serverless EC2 Automation*</sub><br/><br/> | • Serverless compute management via **AWS Lambda** & **EC2**<br/>• Automated lifecycle management to reduce cloud idle cost<br/>• Event-driven execution pipeline configured with Boto3 | `AWS Lambda`<br/>`EC2 / S3`<br/>`Python / Boto3` | <br/>[![Explore](https://img.shields.io/badge/Explore_Repo-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1)<br/><br/> |
-| <br/>🏛️ **CMS Institutional Portal**<br/><sub>*Academic & Admin Management*</sub><br/><br/> | • Comprehensive Content & Institutional Management System<br/>• Role-based access control (RBAC) for admins, faculty & students<br/>• Dynamic assessment metrics, attendance & reporting | `PHP`<br/>`JavaScript`<br/>`MySQL`<br/>`CSS3` | <br/>[![Explore](https://img.shields.io/badge/Explore_Repo-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1/CMSPORTAL)<br/><br/> |
-| <br/>⚡ **Automated Scraping Pipelines**<br/><sub>*Enterprise Web Scraping Suite*</sub><br/><br/> | • High-throughput automated extraction engines for complex portals<br/>• Intelligent CAPTCHA handling, pagination & dynamic JS rendering<br/>• Automated result parsing, structured CSV/JSON data transformation | `Python`<br/>`Selenium`<br/>`JavaScript` | <br/>[![Explore](https://img.shields.io/badge/Explore_Repo-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1)<br/><br/> |
+| <br/>🤖 **NeerajGPT**<br/><sub>*Generative AI Conversational Assistant*</sub><br/><br/> | • High-concurrency conversational assistant powered by cutting-edge LLMs<br/>• Real-time token streaming with resilient client-server message handling<br/>• Responsive, low-latency web interface designed for seamless chat interactions | `JavaScript`<br/>`HTML5 / CSS3`<br/>`OpenAI APIs`<br/>`REST Endpoints` | <br/>[![Explore](https://img.shields.io/badge/View_Repo-1a73e8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1/NeerajGPT)<br/><br/> |
+| <br/>☁️ **AWS Serverless EC2 Orchestrator**<br/><sub>*Automated Cloud Compute Manager*</sub><br/><br/> | • Event-driven serverless orchestration utility using **AWS Lambda** & **Boto3**<br/>• Automated lifecycle management to eliminate idle instance runtimes<br/>• Reduces cloud compute operational costs by up to 60%+ through smart scheduling | `AWS Lambda`<br/>`Amazon EC2`<br/>`Python / Boto3`<br/>`AWS IAM` | <br/>[![Explore](https://img.shields.io/badge/View_Repo-1a73e8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1)<br/><br/> |
+| <br/>🏛️ **Campus & Institutional CMS Portal**<br/><sub>*Enterprise Content & Operations Platform*</sub><br/><br/> | • Modular multi-tier portal engineered for academic management workflows<br/>• Strict Role-Based Access Control (RBAC) across administrative and student tiers<br/>• Dynamic assessment metrics calculation, audit trails, and reporting dashboards | `PHP`<br/>`JavaScript`<br/>`MySQL RDBMS`<br/>`Responsive UI` | <br/>[![Explore](https://img.shields.io/badge/View_Repo-1a73e8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1/CMSPORTAL)<br/><br/> |
+| <br/>⚡ **High-Throughput Scraping & ETL Suite**<br/><sub>*Automated Web Data Extraction Engine*</sub><br/><br/> | • Headless browser scraping cluster engineered for complex dynamic web apps<br/>• Integrated CAPTCHA handling, pagination traversal, and DOM mutation watchers<br/>• Automated structured parsing with export to JSON, CSV, and tabular databases | `Python`<br/>`Selenium`<br/>`BeautifulSoup4`<br/>`Data Automation` | <br/>[![Explore](https://img.shields.io/badge/View_Repo-1a73e8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1)<br/><br/> |
 
 </div>
 
@@ -134,13 +167,13 @@
 
 <a id="github-analytics"></a>
 <!-- ================================================================= -->
-<!-- 📊 SECTION 4: REAL-TIME GITHUB ANALYTICS DASHBOARD                 -->
+<!-- 📊 SECTION 5: REAL-TIME GITHUB ANALYTICS DASHBOARD                 -->
 <!-- ================================================================= -->
-### 📊 Real-Time GitHub Analytics & Activity
+### 📊 Real-Time GitHub Analytics Dashboard
 
 <div align="center">
 
-  <!-- Stats & Top Languages Row -->
+  <!-- Overview Stats & Top Languages Row -->
   <p>
     <a href="https://github.com/Neerajparashar1">
       <img src="https://github-readme-stats-fast.vercel.app/api?username=Neerajparashar1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0f172a" alt="Neeraj's GitHub Stats" width="49%" />
@@ -157,10 +190,10 @@
     </a>
   </p>
 
-  <!-- Sky-Blue Contribution Graph -->
+  <!-- Contribution Wave Graph -->
   <p>
     <a href="https://github.com/Neerajparashar1">
-      <img src="https://ghchart.rshah.org/38bdf8/Neerajparashar1" alt="Neeraj's GitHub Contribution Chart" width="98%" />
+      <img src="https://ghchart.rshah.org/38bdf8/Neerajparashar1" alt="Neeraj's Contribution Grid" width="98%" />
     </a>
   </p>
 
@@ -168,53 +201,50 @@
 
 ---
 
-<a id="roadmap"></a>
+<a id="engineering-standards"></a>
 <!-- ================================================================= -->
-<!-- 💡 SECTION 5: INTERACTIVE ACCORDIONS / DEEP DIVE                   -->
+<!-- ⚙️ SECTION 6: ENGINEERING STANDARDS & ARCHITECTURE DEEP DIVE       -->
 <!-- ================================================================= -->
-### 💡 Deep Dive & Insights
+### ⚙️ Engineering Principles & Practices
 
 <details>
-  <summary><b>🎯 Current Engineering Roadmap & Objectives</b> <i>(Click to expand)</i></summary>
+  <summary><b>🛡️ Security, Zero-Trust & Cloud Hygiene</b> <i>(Click to expand)</i></summary>
   <br/>
   
-  - 🤖 **Autonomous Multi-Agent Systems:** Developing autonomous agentic workflows combining LLM reasoning with tool execution.
-  - ☁️ **Advanced AWS Cloud Infrastructure:** Deepening certifications and production-grade architectures with Terraform / IaC and Kubernetes.
-  - ⚡ **Distributed Web Automation:** Scaling distributed scrapers with message queues (AWS SQS, Redis) and worker pools.
-  - 🌐 **Open-Source Contributions:** Actively contributing to modern developer tools and open-source ecosystems.
+  - **Principle of Least Privilege (PoLP):** Strict IAM roles and resource-based policies ensuring cloud compute runs with the minimal set of required permissions.
+  - **Environment Segregation:** Complete decoupling of application secrets, API keys, and configurations via `.env` and AWS Systems Manager Parameter Store.
+  - **Sanitized Input & Validation:** Defensive programming at every layer to mitigate SQL injection, XSS, and unauthorized access vectors.
 </details>
 
 <details>
-  <summary><b>⚙️ Engineering Philosophy & Best Practices</b> <i>(Click to expand)</i></summary>
+  <summary><b>📈 SRE & Reliability Mindset</b> <i>(Click to expand)</i></summary>
   <br/>
   
-  - **Clean Code & Modularity:** Writing self-documenting, maintainable code with strict separation of concerns.
-  - **Serverless-First Mindset:** Designing for low maintenance, high availability, and cost-efficient cloud scaling.
-  - **Security by Design:** Ensuring strict principle of least privilege (IAM), environment variable hygiene, and safe API patterns.
-  - **Continuous Iteration:** Prototyping rapidly, collecting feedback, and optimizing iteratively.
+  - **Graceful Failure & Backoff:** Automated retry strategies with exponential jitter for third-party APIs and network-dependent scraping routines.
+  - **Idempotency:** Designing backend operations and webhook receivers to be idempotent, preventing duplicate mutations during retries.
+  - **CloudWatch Observability:** Structured JSON logs and custom metric alarms to detect anomalies before they impact end users.
 </details>
 
 <details>
-  <summary><b>💻 Workstation & Development Environment</b> <i>(Click to expand)</i></summary>
+  <summary><b>🎯 Active Roadmap & 2026 Focus</b> <i>(Click to expand)</i></summary>
   <br/>
   
-  - **Operating Systems:** Windows 11 (PowerShell & WSL2 Ubuntu), Linux VPS
-  - **Editor:** Visual Studio Code (Customized Dark Theme, GitHub Copilot, Vim Keybindings)
-  - **Terminal:** Windows Terminal with Oh My Posh & PowerShell
-  - **API Testing:** Postman & Thunder Client
+  - 🧠 **Autonomous Multi-Agent AI:** Exploring agent frameworks (LangGraph, CrewAI) for end-to-end multi-step reasoning and automated tooling.
+  - ☁️ **Infrastructure as Code (IaC):** Deepening automated provisioning using Terraform and AWS CloudFormation.
+  - ⚡ **High-Speed Async Microservices:** Building ultra-fast asynchronous microservices with FastAPI and event queues (AWS SQS, Redis).
 </details>
 
 ---
 
 <a id="contact"></a>
 <!-- ================================================================= -->
-<!-- 📬 SECTION 6: CONNECT & FOOTER (Website Ending)                    -->
+<!-- 📬 SECTION 7: CONNECT & COLLABORATION HUB                          -->
 <!-- ================================================================= -->
 <div align="center">
 
-### 📬 Let's Connect & Build Something Great!
+### 📬 Connect & Collaborate
 
-Whether you have an interesting project, an opportunity, or just want to talk about AI, Cloud, or Automation:
+Whether you're looking to build an AI-powered product, architect scalable cloud infrastructure, or discuss modern software engineering:
 
 <p align="center">
   <a href="mailto:np5668342@gmail.com">
@@ -222,30 +252,30 @@ Whether you have an interesting project, an opportunity, or just want to talk ab
   </a>
   &nbsp;
   <a href="https://github.com/Neerajparashar1">
-    <img src="https://img.shields.io/badge/GitHub-Follow%20%40Neerajparashar1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Follow" />
+    <img src="https://img.shields.io/badge/GitHub-Follow%20%40Neerajparashar1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
   <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect%20Professionally-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Connect" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect%20Professionally-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
 <br/>
 
-<!-- Dynamic Daily Dev Quote -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Tech Inspiration Quote" />
+<!-- Dynamic Engineering Quote -->
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily Tech Inspiration" />
 
 <br/><br/>
 
-<!-- Back to Top Link -->
+<!-- Back to Top Navigation -->
 <p align="right">
-  <a href="#top"><b>⬆ Back to Top</b></a>
+  <a href="#top"><b>⬆ Return to Top</b></a>
 </p>
 
 <!-- Waving Footer Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%" alt="Footer Wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,100:1a73e8&height=100&section=footer" width="100%" alt="Footer Wave" />
 
 <br/>
-<sub>⭐ <i>Designed & Engineered with ❤️ by <b>Neeraj Parashar</b> • All Rights Reserved</i> ⭐</sub>
+<sub>⭐ <i>Engineered with precision by <b>Neeraj Parashar</b> • Built for scale & impact</i> ⭐</sub>
 
 </div>
