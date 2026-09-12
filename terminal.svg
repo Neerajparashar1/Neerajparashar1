@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c121e" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <linearGradient id="titleBarBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161f30" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <filter id="termShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <style>
+    .prompt { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13px; font-weight: 700; fill: #10b981; }
+    .command { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 13px; font-weight: 600; fill: #f8fafc; }
+    .code-key { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 12.5px; font-weight: 600; fill: #38bdf8; }
+    .code-val { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 12.5px; fill: #cbd5e1; }
+    .code-highlight { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 12.5px; font-weight: 700; fill: #f59e0b; }
+    .code-string { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 12.5px; fill: #a7f3d0; }
+    .tab-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; fill: #94a3b8; }
+    
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor { animation: blink 1s infinite; fill: #38bdf8; }
+  </style>
+
+  <!-- Window Container with Outer Border & Shadow -->
+  <rect x="2" y="2" width="936" height="336" rx="14" fill="url(#termBg)" stroke="#1e293b" stroke-width="1.5" filter="url(#termShadow)" />
+
+  <!-- macOS Window Titlebar -->
+  <path d="M 2 16 Q 2 2 16 2 L 924 2 Q 938 2 938 16 L 938 38 L 2 38 Z" fill="url(#titleBarBg)" stroke="#1e293b" stroke-width="1" />
+
+  <!-- macOS Traffic Light Window Buttons -->
+  <circle cx="24" cy="20" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5" />
+  <circle cx="44" cy="20" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5" />
+  <circle cx="64" cy="20" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
+
+  <!-- Window Title / Active Tab -->
+  <g transform="translate(100, 10)">
+    <rect x="0" y="0" width="310" height="22" rx="6" fill="#080c14" stroke="#1e293b" stroke-width="1" />
+    <text x="15" y="15" class="tab-text">⚡ bash — neeraj@cloud-station: ~/profile</text>
+  </g>
+
+  <!-- Terminal Content -->
+  <g transform="translate(26, 68)">
+    <!-- Command Prompt 1 -->
+    <text x="0" y="0" class="prompt">neeraj@cloud-box:~$</text>
+    <text x="175" y="0" class="command">cat developer_profile.json</text>
+
+    <!-- JSON Output -->
+    <text x="0" y="26" class="code-val">{</text>
+    
+    <text x="24" y="48" class="code-key">"engineer":</text>
+    <text x="120" y="48" class="code-string">"Neeraj Parashar"</text>
+    <text x="260" y="48" class="code-val">,</text>
+
+    <text x="24" y="70" class="code-key">"role":</text>
+    <text x="85" y="70" class="code-string">"Software Engineer &amp; Cloud Systems Architect"</text>
+    <text x="475" y="70" class="code-val">,</text>
+
+    <text x="24" y="92" class="code-key">"cloud_infrastructure":</text>
+    <text x="210" y="92" class="code-string">["AWS Lambda (Serverless)", "Amazon EC2", "S3", "API Gateway"]</text>
+    <text x="760" y="92" class="code-val">,</text>
+
+    <text x="24" y="114" class="code-key">"ai_integrations":</text>
+    <text x="175" y="114" class="code-string">["Generative AI Chatbots", "OpenAI / Gemini APIs", "Autonomous Agents"]</text>
+    <text x="750" y="114" class="code-val">,</text>
+
+    <text x="24" y="136" class="code-key">"data_engineering":</text>
+    <text x="190" y="136" class="code-string">["Headless Selenium Scraping", "DOM Mutation Watchers", "ETL Pipelines"]</text>
+    <text x="785" y="136" class="code-val">,</text>
+
+    <text x="24" y="158" class="code-key">"cost_optimization":</text>
+    <text x="195" y="158" class="code-highlight">"60%+ Reduction via Automated Boto3 Schedulers"</text>
+    <text x="590" y="158" class="code-val">,</text>
+
+    <text x="24" y="180" class="code-key">"status":</text>
+    <text x="95" y="180" class="code-highlight">"🟢 Available for High-Impact Software Engineering Roles"</text>
+
+    <text x="0" y="204" class="code-val">}</text>
+
+    <!-- Interactive Next Command Line with Blinking Cursor -->
+    <text x="0" y="234" class="prompt">neeraj@cloud-box:~$</text>
+    <text x="175" y="234" class="command">deploy_solution --env=production</text>
+    <rect x="445" y="222" width="9" height="15" rx="1.5" class="cursor" />
+  </g>
+</svg>

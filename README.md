@@ -26,7 +26,12 @@
     <a href="#contact"><b>📬 CONTACT</b></a>
   </p>
 
-  <!-- Live KPI & Action Badges -->
+  <!-- Modern CSS Engineering Metrics Banner -->
+  <p align="center">
+    <img src="./metrics-banner.svg" width="100%" alt="Engineering Focus & Metrics" />
+  </p>
+
+  <!-- Live Action Badges -->
   <p align="center">
     <img src="https://img.shields.io/badge/Role-Software%20%26%20Cloud%20Engineer-1a73e8?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Role" />
     <img src="https://img.shields.io/badge/AWS-Serverless%20Architecture-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Serverless" />
@@ -47,27 +52,9 @@
 <!-- ================================================================= -->
 ### 🧑‍💻 Engineering Profile & Terminal
 
-```bash
-neeraj@workstation:~$ cat profile.json
-```
-
-```json
-{
-  "engineer": {
-    "name": "Neeraj Parashar",
-    "title": "Software Engineer & Cloud Architect",
-    "location": "India 🇮🇳",
-    "core_competencies": [
-      "Event-Driven Cloud Infrastructure (AWS Lambda, EC2, S3, API Gateway)",
-      "Applied AI / Large Language Models (LLMs) & Conversational Agents",
-      "High-Throughput Web Scraping & Automated Data Harvesting",
-      "Full-Stack Web Systems & Institutional CMS Platforms"
-    ],
-    "engineering_mindset": "Design for scale, automate relentlessly, and write clean, maintainable systems.",
-    "current_status": "🟢 Available for high-impact software engineering opportunities & collaborations."
-  }
-}
-```
+<div align="center">
+  <img src="./terminal.svg" width="100%" alt="Developer Terminal Profile" />
+</div>
 
 #### 📌 Executive Summary
 - ⚡ **Cloud & Serverless Engineering:** Architect of resilient cloud backends utilizing AWS services. Experienced with event-driven execution, compute orchestration, least-privilege IAM security, and cost optimization.
