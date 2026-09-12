@@ -197,6 +197,15 @@
     </a>
   </p>
 
+  <!-- Dynamic Snake Eating Contributions Animation -->
+  <p>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Neerajparashar1/Neerajparashar1/output/github-contribution-grid-snake-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Neerajparashar1/Neerajparashar1/output/github-contribution-grid-snake.svg">
+      <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/Neerajparashar1/Neerajparashar1/output/github-contribution-grid-snake-dark.svg" width="98%" />
+    </picture>
+  </p>
+
 </div>
 
 ---
