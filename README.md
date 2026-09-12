@@ -5,12 +5,17 @@
 <!-- ================================================================= -->
 <div align="center">
 
-  <!-- Dynamic Gradient Hero Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a73e8,100:0b0f19&height=220&section=header&text=Neeraj%20Parashar&fontSize=42&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20Cloud%20Architect%20%E2%80%A2%20AI%20Systems&descAlignY=58&descSize=17" width="100%" alt="Neeraj Parashar Hero Banner" />
+  <!-- Dynamic Gradient Wave Header Accent -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a73e8,100:0b0f19&height=120&section=header" width="100%" alt="Hero Wave" />
 
-  <!-- Animated Real-Time Typing Stream -->
+  <!-- Typed Name in Pure WHITE (#FFFFFF) with Live Typewriter Effect -->
   <a href="https://github.com/Neerajparashar1">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=60A5FA&center=true&vCenter=true&width=650&lines=Building+Reliable+Scalable+Cloud+Architectures;Pioneering+AI+Chatbots+%26+Intelligent+Autonomous+Agents;Automating+Large-Scale+ETL+%26+Web+Data+Pipelines;Crafting+Production-Ready+Full-Stack+Platforms" alt="Dynamic Typing Stream" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=40&duration=2400&pause=1200&color=FFFFFF&center=true&vCenter=true&width=550&height=70&lines=Neeraj+Parashar;Neeraj+Parashar+%F0%9F%91%8B;Neeraj+Parashar+%E2%9A%A1" alt="Neeraj Parashar Typed Name" />
+  </a>
+
+  <!-- Animated Real-Time Typing Stream for Engineering Roles -->
+  <a href="https://github.com/Neerajparashar1">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=45&lines=Software+Engineer+%E2%80%A2+Cloud+Architect+%E2%80%A2+AI+Systems;Building+Reliable+Scalable+Cloud+Architectures;Pioneering+AI+Chatbots+%26+Intelligent+Autonomous+Agents;Automating+Large-Scale+ETL+%26+Web+Data+Pipelines" alt="Dynamic Typing Stream" />
   </a>
 
   <br/><br/>
