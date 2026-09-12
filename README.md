@@ -111,6 +111,13 @@
 
 <br/>
 
+<!-- Modern CSS Skills Radar & Competency Bar -->
+<div align="center">
+  <img src="./skills-matrix.svg" width="100%" alt="Engineering Competency Radar" />
+</div>
+
+<br/>
+
 | Technical Pillar | Production Tools & Technologies |
 | :--- | :--- |
 | **Languages** | `Python 3.x` `JavaScript (ES6+)` `PHP` `SQL` `HTML5 / CSS3` `Bash` `PowerShell` |
@@ -130,12 +137,29 @@
 
 <div align="center">
 
-| Project & Architectural Overview | Key Engineering Highlights | Tech Stack | Repository |
-| :--- | :--- | :--- | :---: |
-| <br/>🤖 **NeerajGPT**<br/><sub>*Generative AI Conversational Assistant*</sub><br/><br/> | • High-concurrency conversational assistant powered by cutting-edge LLMs<br/>• Real-time token streaming with resilient client-server message handling<br/>• Responsive, low-latency web interface designed for seamless chat interactions | `JavaScript`<br/>`HTML5 / CSS3`<br/>`OpenAI APIs`<br/>`REST Endpoints` | <br/>[![Explore](https://img.shields.io/badge/View_Repo-1a73e8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1/NeerajGPT)<br/><br/> |
-| <br/>☁️ **AWS Serverless EC2 Orchestrator**<br/><sub>*Automated Cloud Compute Manager*</sub><br/><br/> | • Event-driven serverless orchestration utility using **AWS Lambda** & **Boto3**<br/>• Automated lifecycle management to eliminate idle instance runtimes<br/>• Reduces cloud compute operational costs by up to 60%+ through smart scheduling | `AWS Lambda`<br/>`Amazon EC2`<br/>`Python / Boto3`<br/>`AWS IAM` | <br/>[![Explore](https://img.shields.io/badge/View_Repo-1a73e8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1)<br/><br/> |
-| <br/>🏛️ **Campus & Institutional CMS Portal**<br/><sub>*Enterprise Content & Operations Platform*</sub><br/><br/> | • Modular multi-tier portal engineered for academic management workflows<br/>• Strict Role-Based Access Control (RBAC) across administrative and student tiers<br/>• Dynamic assessment metrics calculation, audit trails, and reporting dashboards | `PHP`<br/>`JavaScript`<br/>`MySQL RDBMS`<br/>`Responsive UI` | <br/>[![Explore](https://img.shields.io/badge/View_Repo-1a73e8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1/CMSPORTAL)<br/><br/> |
-| <br/>⚡ **High-Throughput Scraping & ETL Suite**<br/><sub>*Automated Web Data Extraction Engine*</sub><br/><br/> | • Headless browser scraping cluster engineered for complex dynamic web apps<br/>• Integrated CAPTCHA handling, pagination traversal, and DOM mutation watchers<br/>• Automated structured parsing with export to JSON, CSV, and tabular databases | `Python`<br/>`Selenium`<br/>`BeautifulSoup4`<br/>`Data Automation` | <br/>[![Explore](https://img.shields.io/badge/View_Repo-1a73e8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1)<br/><br/> |
+  <!-- Modern CSS Vector Projects Showcase -->
+  <img src="./projects-showcase.svg" width="100%" alt="Featured Projects Showcase" />
+
+  <br/><br/>
+
+  <!-- Quick Explore Action Buttons -->
+  <p align="center">
+    <a href="https://github.com/Neerajparashar1/NeerajGPT">
+      <img src="https://img.shields.io/badge/🤖_Explore_NeerajGPT-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="NeerajGPT" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/Neerajparashar1">
+      <img src="https://img.shields.io/badge/☁️_AWS_Orchestrator-f59e0b?style=for-the-badge&logo=github&logoColor=white" alt="AWS Orchestrator" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/Neerajparashar1/CMSPORTAL">
+      <img src="https://img.shields.io/badge/🏛️_CMS_Portal-a855f7?style=for-the-badge&logo=github&logoColor=white" alt="CMS Portal" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/Neerajparashar1">
+      <img src="https://img.shields.io/badge/⚡_Scraping_Suite-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Scraping Suite" />
+    </a>
+  </p>
 
 </div>
 

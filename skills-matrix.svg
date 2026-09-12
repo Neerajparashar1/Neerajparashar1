@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="matrixBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c121e" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Bar Gradients -->
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="barEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <linearGradient id="barAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <linearGradient id="barIndigo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <style>
+    .header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 700; fill: #f8fafc; letter-spacing: 0.5px; }
+    .skill-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; font-weight: 600; fill: #cbd5e1; }
+    .skill-val { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 11.5px; font-weight: 700; }
+    .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 700; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="936" height="236" rx="14" fill="url(#matrixBg)" stroke="#1e293b" stroke-width="1.5" filter="url(#shadow)" />
+
+  <!-- Header Section -->
+  <g transform="translate(24, 20)">
+    <rect x="0" y="0" width="5" height="18" rx="2.5" fill="#38bdf8" />
+    <text x="14" y="14" class="header">ENGINEERING COMPETENCY &amp; SPECIALIZATION RADAR</text>
+    
+    <rect x="740" y="-3" width="150" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <circle cx="754" cy="9" r="4" fill="#10b981" />
+    <text x="766" y="13" fill="#94a3b8" class="badge-text">PRODUCTION VERIFIED</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="24" y1="52" x2="916" y2="52" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Skill Row 1: AWS & Serverless Architecture -->
+  <g transform="translate(24, 68)">
+    <text x="0" y="14" class="skill-label">☁️ AWS Cloud &amp; Serverless Infrastructure (Lambda, EC2, S3, API GW)</text>
+    <text x="890" y="14" fill="#38bdf8" class="skill-val" text-anchor="end">95%</text>
+    <!-- Background Track -->
+    <rect x="0" y="22" width="892" height="8" rx="4" fill="#1e293b" />
+    <!-- Glowing Filled Bar -->
+    <rect x="0" y="22" width="847" height="8" rx="4" fill="url(#barCyan)" />
+  </g>
+
+  <!-- Skill Row 2: Python, Boto3 & Web Automation -->
+  <g transform="translate(24, 104)">
+    <text x="0" y="14" class="skill-label">⚡ Python Engineering &amp; Headless Scraping (Selenium, Boto3, ETL)</text>
+    <text x="890" y="14" fill="#10b981" class="skill-val" text-anchor="end">94%</text>
+    <rect x="0" y="22" width="892" height="8" rx="4" fill="#1e293b" />
+    <rect x="0" y="22" width="838" height="8" rx="4" fill="url(#barEmerald)" />
+  </g>
+
+  <!-- Skill Row 3: Full-Stack Web & CMS Systems -->
+  <g transform="translate(24, 140)">
+    <text x="0" y="14" class="skill-label">🌐 Full-Stack Architecture &amp; Database Design (Node.js, PHP, MySQL, REST)</text>
+    <text x="890" y="14" fill="#f59e0b" class="skill-val" text-anchor="end">90%</text>
+    <rect x="0" y="22" width="892" height="8" rx="4" fill="#1e293b" />
+    <rect x="0" y="22" width="802" height="8" rx="4" fill="url(#barAmber)" />
+  </g>
+
+  <!-- Skill Row 4: Applied AI & LLM Conversational Systems -->
+  <g transform="translate(24, 176)">
+    <text x="0" y="14" class="skill-label">🤖 Applied AI &amp; LLM Orchestration (OpenAI API, Streaming, Prompt Chains)</text>
+    <text x="890" y="14" fill="#818cf8" class="skill-val" text-anchor="end">88%</text>
+    <rect x="0" y="22" width="892" height="8" rx="4" fill="#1e293b" />
+    <rect x="0" y="22" width="785" height="8" rx="4" fill="url(#barIndigo)" />
+  </g>
+</svg>

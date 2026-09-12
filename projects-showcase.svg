@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="projBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#0d1424" />
+    </linearGradient>
+
+    <!-- Card Fill -->
+    <linearGradient id="cardFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121b2d" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0b101c" stop-opacity="0.98" />
+    </linearGradient>
+
+    <!-- Card 1: Cyan -->
+    <linearGradient id="borderCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="pillCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Card 2: Amber -->
+    <linearGradient id="borderAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="pillAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Card 3: Purple -->
+    <linearGradient id="borderPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#7e22ce" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="pillPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Card 4: Emerald -->
+    <linearGradient id="borderEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="pillEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.1" />
+    </linearGradient>
+
+    <filter id="pShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <style>
+    .p-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #f8fafc; }
+    .p-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #94a3b8; font-style: italic; }
+    .p-point { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #cbd5e1; }
+    .p-tag { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 11px; font-weight: 600; }
+    .p-badge { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Canvas -->
+  <rect width="940" height="460" rx="16" fill="url(#projBg)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- ================================================================= -->
+  <!-- PROJECT 1: NEERAJGPT (Top-Left)                                   -->
+  <!-- ================================================================= -->
+  <g transform="translate(25, 25)">
+    <rect width="435" height="195" rx="12" fill="url(#cardFill)" stroke="url(#borderCyan)" stroke-width="1.5" filter="url(#pShadow)" />
+    <text x="20" y="32" class="p-title">🤖 NeerajGPT</text>
+    <rect x="290" y="16" width="125" height="20" rx="10" fill="url(#pillCyan)" stroke="#38bdf8" stroke-width="1" />
+    <text x="352" y="30" fill="#38bdf8" class="p-badge" text-anchor="middle">LIVE AI ENGINE</text>
+
+    <text x="20" y="52" class="p-desc">Generative AI Conversational Assistant &amp; LLM Stream</text>
+
+    <circle cx="25" cy="76" r="3" fill="#38bdf8" />
+    <text x="36" y="80" class="p-point">Real-time token streaming with sub-150ms token latency</text>
+
+    <circle cx="25" cy="98" r="3" fill="#38bdf8" />
+    <text x="36" y="102" class="p-point">Modular client-server architecture with stateful context memory</text>
+
+    <circle cx="25" cy="120" r="3" fill="#38bdf8" />
+    <text x="36" y="124" class="p-point">Modern responsive chat interface with markdown code rendering</text>
+
+    <!-- Tag Pills -->
+    <g transform="translate(20, 150)">
+      <rect x="0" y="0" width="85" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="42" y="16" fill="#38bdf8" class="p-tag" text-anchor="middle">OpenAI API</text>
+
+      <rect x="93" y="0" width="85" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="135" y="16" fill="#38bdf8" class="p-tag" text-anchor="middle">JavaScript</text>
+
+      <rect x="186" y="0" width="85" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="228" y="16" fill="#38bdf8" class="p-tag" text-anchor="middle">REST APIs</text>
+
+      <rect x="279" y="0" width="75" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="316" y="16" fill="#38bdf8" class="p-tag" text-anchor="middle">CSS3 UI</text>
+    </g>
+  </g>
+
+  <!-- ================================================================= -->
+  <!-- PROJECT 2: AWS SERVERLESS ORCHESTRATOR (Top-Right)                -->
+  <!-- ================================================================= -->
+  <g transform="translate(480, 25)">
+    <rect width="435" height="195" rx="12" fill="url(#cardFill)" stroke="url(#borderAmber)" stroke-width="1.5" filter="url(#pShadow)" />
+    <text x="20" y="32" class="p-title">☁️ AWS Cloud Orchestrator</text>
+    <rect x="300" y="16" width="115" height="20" rx="10" fill="url(#pillAmber)" stroke="#f59e0b" stroke-width="1" />
+    <text x="357" y="30" fill="#f59e0b" class="p-badge" text-anchor="middle">SERVERLESS EC2</text>
+
+    <text x="20" y="52" class="p-desc">Event-Driven Compute Lifecycle &amp; Cost Optimizer</text>
+
+    <circle cx="25" cy="76" r="3" fill="#f59e0b" />
+    <text x="36" y="80" class="p-point">Event-driven serverless orchestration utility using AWS Lambda</text>
+
+    <circle cx="25" cy="98" r="3" fill="#f59e0b" />
+    <text x="36" y="102" class="p-point">Automated EC2 compute lifecycle scheduler engineered with Boto3</text>
+
+    <circle cx="25" cy="120" r="3" fill="#f59e0b" />
+    <text x="36" y="124" class="p-point">Reduces cloud operational costs by 60%+ eliminating idle runtimes</text>
+
+    <!-- Tag Pills -->
+    <g transform="translate(20, 150)">
+      <rect x="0" y="0" width="95" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="47" y="16" fill="#f59e0b" class="p-tag" text-anchor="middle">AWS Lambda</text>
+
+      <rect x="103" y="0" width="95" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="150" y="16" fill="#f59e0b" class="p-tag" text-anchor="middle">Amazon EC2</text>
+
+      <rect x="206" y="0" width="95" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="253" y="16" fill="#f59e0b" class="p-tag" text-anchor="middle">Python Boto3</text>
+
+      <rect x="309" y="0" width="80" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="349" y="16" fill="#f59e0b" class="p-tag" text-anchor="middle">AWS IAM</text>
+    </g>
+  </g>
+
+  <!-- ================================================================= -->
+  <!-- PROJECT 3: INSTITUTIONAL CMS (Bottom-Left)                        -->
+  <!-- ================================================================= -->
+  <g transform="translate(25, 240)">
+    <rect width="435" height="195" rx="12" fill="url(#cardFill)" stroke="url(#borderPurple)" stroke-width="1.5" filter="url(#pShadow)" />
+    <text x="20" y="32" class="p-title">🏛️ Campus &amp; CMS Portal</text>
+    <rect x="290" y="16" width="125" height="20" rx="10" fill="url(#pillPurple)" stroke="#a855f7" stroke-width="1" />
+    <text x="352" y="30" fill="#a855f7" class="p-badge" text-anchor="middle">ENTERPRISE CMS</text>
+
+    <text x="20" y="52" class="p-desc">Academic Operations &amp; Accreditation Management</text>
+
+    <circle cx="25" cy="76" r="3" fill="#a855f7" />
+    <text x="36" y="80" class="p-point">Modular multi-tier web platform with strict Role-Based Access (RBAC)</text>
+
+    <circle cx="25" cy="98" r="3" fill="#a855f7" />
+    <text x="36" y="102" class="p-point">Automated attainment metric calculations &amp; student audit trails</text>
+
+    <circle cx="25" cy="120" r="3" fill="#a855f7" />
+    <text x="36" y="124" class="p-point">Relational database design for high data consistency &amp; reporting</text>
+
+    <!-- Tag Pills -->
+    <g transform="translate(20, 150)">
+      <rect x="0" y="0" width="60" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="30" y="16" fill="#a855f7" class="p-tag" text-anchor="middle">PHP</text>
+
+      <rect x="68" y="0" width="85" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="110" y="16" fill="#a855f7" class="p-tag" text-anchor="middle">MySQL RDS</text>
+
+      <rect x="161" y="0" width="85" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="203" y="16" fill="#a855f7" class="p-tag" text-anchor="middle">JavaScript</text>
+
+      <rect x="254" y="0" width="75" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="291" y="16" fill="#a855f7" class="p-tag" text-anchor="middle">Security</text>
+    </g>
+  </g>
+
+  <!-- ================================================================= -->
+  <!-- PROJECT 4: WEB SCRAPING & ETL SUITE (Bottom-Right)                -->
+  <!-- ================================================================= -->
+  <g transform="translate(480, 240)">
+    <rect width="435" height="195" rx="12" fill="url(#cardFill)" stroke="url(#borderEmerald)" stroke-width="1.5" filter="url(#pShadow)" />
+    <text x="20" y="32" class="p-title">⚡ Web Scraping &amp; ETL Suite</text>
+    <rect x="290" y="16" width="125" height="20" rx="10" fill="url(#pillEmerald)" stroke="#10b981" stroke-width="1" />
+    <text x="352" y="30" fill="#10b981" class="p-badge" text-anchor="middle">INDUSTRIAL ETL</text>
+
+    <text x="20" y="52" class="p-desc">Headless Dynamic Extraction &amp; Pipeline Cleansing</text>
+
+    <circle cx="25" cy="76" r="3" fill="#10b981" />
+    <text x="36" y="80" class="p-point">High-throughput scraping cluster built with headless Selenium</text>
+
+    <circle cx="25" cy="98" r="3" fill="#10b981" />
+    <text x="36" y="102" class="p-point">Intelligent CAPTCHA bypass hooks &amp; dynamic DOM mutation handlers</text>
+
+    <circle cx="25" cy="120" r="3" fill="#10b981" />
+    <text x="36" y="124" class="p-point">Automated parsing &amp; transformation into structured JSON/CSV records</text>
+
+    <!-- Tag Pills -->
+    <g transform="translate(20, 150)">
+      <rect x="0" y="0" width="75" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="37" y="16" fill="#10b981" class="p-tag" text-anchor="middle">Python</text>
+
+      <rect x="83" y="0" width="80" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="123" y="16" fill="#10b981" class="p-tag" text-anchor="middle">Selenium</text>
+
+      <rect x="171" y="0" width="105" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="223" y="16" fill="#10b981" class="p-tag" text-anchor="middle">BeautifulSoup</text>
+
+      <rect x="284" y="0" width="85" height="24" rx="6" fill="#0b101c" stroke="#334155" stroke-width="1" />
+      <text x="326" y="16" fill="#10b981" class="p-tag" text-anchor="middle">ETL Engine</text>
+    </g>
+  </g>
+</svg>
