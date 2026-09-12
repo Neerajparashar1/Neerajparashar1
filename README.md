@@ -83,22 +83,11 @@ neeraj@workstation:~$ cat profile.json
 <!-- ================================================================= -->
 ### 🏛️ System Design & Architecture Pattern
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                 HIGH-LEVEL SYSTEM ARCHITECTURE                              │
-├─────────────────┐       ┌─────────────────┐       ┌─────────────────┐       ┌───────────────┤
-│   Client Layer  │ ───►  │  Edge / Routing │ ───►  │ Compute Engine  │ ───►  │ AI & Services │
-│ (Responsive Web)│       │(API GW / Nginx) │       │(Lambda/EC2/Node)│       │ (OpenAI/LLMs) │
-└─────────────────┘       └─────────────────┘       └────────┬────────┘       └───────────────┘
-                                                             │
-                                                             ▼
-                                                    ┌─────────────────┐
-                                                    │ Storage & Data  │
-                                                    │(S3 / MySQL / DB)│
-                                                    └─────────────────┘
-```
+<div align="center">
+  <img src="./architecture.svg" width="100%" alt="4-Core Architecture Blueprint" />
+</div>
 
-> **Design Tenets:** *Decoupled microservices, fault-tolerant retries with exponential backoff, automated zero-idle cost, and strict environment isolation.*
+> **Core Architectural Tenets:** *Decoupled serverless microservices, sub-100ms edge latency, automated 60%+ cloud cost savings, and strict zero-trust IAM governance.*
 
 ---
 
