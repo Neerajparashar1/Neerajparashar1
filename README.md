@@ -1,172 +1,251 @@
-<div align="center">
+<a id="top"></a>
 
-  <!-- Dynamic Typing Banner -->
+<!-- ================================================================= -->
+<!-- 🌐 HERO / HEADER SECTION (Website Style Dynamic Banner)            -->
+<!-- ================================================================= -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Neeraj%20Parashar&fontSize=42&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20Cloud%20Architect%20%E2%80%A2%20AI%20Engineer&descAlignY=58&descSize=18" width="100%" alt="Neeraj Parashar Hero Banner" />
+
+  <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/Neerajparashar1">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Hi%2C+I'm+Neeraj+Parashar+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%92%BB;AI+%26+Cloud+Solutions+Architect+%E2%98%81%EF%B8%8F;Python+%7C+JavaScript+%7C+AWS+%F0%9F%9A%80" alt="Neeraj Parashar Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Crafting+Scalable+Cloud+Architectures+%E2%98%81%EF%B8%8F;Building+Next-Gen+AI+Chatbots+%26+Agents+%F0%9F%A4%96;Automating+Complex+Workflows+%26+Scrapers+%E2%9A%A1;Full-Stack+Web+Solutions+that+Scale+%F0%9F%9A%80" alt="Dynamic Typing Subtitle" />
   </a>
 
+  <br/><br/>
+
+  <!-- Website Style Navigation Bar -->
   <p align="center">
-    <strong>Full-Stack Developer • Cloud & AI Architect • Automation Specialist</strong>
+    <a href="#about-me"><b>👨‍💻 ABOUT</b></a> &nbsp;•&nbsp;
+    <a href="#tech-stack"><b>🛠️ TECH STACK</b></a> &nbsp;•&nbsp;
+    <a href="#featured-projects"><b>🚀 PROJECTS</b></a> &nbsp;•&nbsp;
+    <a href="#github-analytics"><b>📊 ANALYTICS</b></a> &nbsp;•&nbsp;
+    <a href="#roadmap"><b>🎯 ROADMAP</b></a> &nbsp;•&nbsp;
+    <a href="#contact"><b>📬 CONTACT</b></a>
   </p>
 
-  <!-- Quick Badges -->
+  <!-- Live Status & Quick Action Badges -->
   <p align="center">
+    <img src="https://img.shields.io/badge/Status-Available%20for%20Projects%20%26%20Roles-22c55e?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
+    <img src="https://img.shields.io/badge/Focus-AI%20%26%20Cloud%20Serverless-38bdf8?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Focus" />
     <a href="mailto:np5668342@gmail.com">
-      <img src="https://img.shields.io/badge/Email-np5668342%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-Get%20In%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://github.com/Neerajparashar1">
-      <img src="https://img.shields.io/badge/GitHub-Neerajparashar1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    <a href="https://linkedin.com">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <img src="https://komarev.com/ghpvc/?username=Neerajparashar1&label=PROFILE%20VIEWS&color=0ea5e9&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=Neerajparashar1&label=PROFILE%20VIEWS&color=0284c7&style=for-the-badge" alt="Profile Views" />
   </p>
 
 </div>
 
 ---
 
-### 👨‍💻 About Me
+<a id="about-me"></a>
+<!-- ================================================================= -->
+<!-- 👨‍💻 SECTION 1: ABOUT ME & TERMINAL PROFILE                        -->
+<!-- ================================================================= -->
+### 👨‍💻 `developer.config`
 
-```yaml
-developer:
-  name: Neeraj Parashar
-  role: Full-Stack Developer & Cloud Architect
-  location: India
-  focus_areas:
-    - Artificial Intelligence & LLM Applications
-    - Cloud Infrastructure & Serverless Architecture (AWS)
-    - Full-Stack Web Development & Modern Portals
-    - Web Scraping & Data Extraction Pipelines
-  philosophy: "Crafting scalable code, automating workflows, and building intelligent solutions."
+```json
+{
+  "developer": {
+    "name": "Neeraj Parashar",
+    "title": "Full-Stack Software Engineer & Cloud Solutions Architect",
+    "location": "India 🇮🇳",
+    "specialties": [
+      "Generative AI & LLM Chatbots",
+      "AWS Cloud Infrastructure (Serverless & Compute)",
+      "High-Performance Web Scraping & Data Automation",
+      "Full-Stack Web Platforms & Institutional CMS"
+    ],
+    "philosophy": "Writing clean, scalable code that turns manual complexity into effortless automation.",
+    "hobbies": ["System Architecture", "Open Source Exploration", "Tech Experimentation"]
+  }
+}
 ```
 
-- 🔭 **Currently Building:** AI-integrated conversational assistants, cloud orchestration tools, and automated data pipelines.
-- ☁️ **Cloud Expertise:** Hands-on with **AWS** (EC2, Lambda, S3, API Gateway, CloudWatch) architecting serverless and scalable infrastructure.
-- 🤖 **AI & Automation:** Developing intelligent chatbot systems and robust automated scrapers for complex web portals.
-- 💡 **Problem Solver:** Passionate about clean architecture, performance optimization, and developer productivity.
-- 💬 **Ask Me About:** Python, JavaScript, PHP, AWS Cloud, Web Scraping (Selenium/Puppeteer), and REST API design.
-- 📫 **How to Reach Me:** [np5668342@gmail.com](mailto:np5668342@gmail.com)
+#### 🌟 Executive Summary:
+- 🚀 **Full-Stack Development:** Experienced in engineering robust web applications, scalable RESTful APIs, and full-scale institutional management platforms with responsive UIs and secure backends.
+- ☁️ **AWS Cloud Architecture:** Practical expertise architecting serverless deployments, managing compute instances with **AWS Lambda**, **EC2**, **S3**, **API Gateway**, and infrastructure monitoring via **CloudWatch**.
+- 🤖 **AI & Autonomous Agents:** Passionate about integrating cutting-edge LLMs (OpenAI, Gemini), intelligent chat systems, and automated agent workflows.
+- ⚡ **Web Automation & Scraping:** Master of headless automated data extraction (Selenium, Puppeteer, BeautifulSoup) for rapid data transformation and analysis.
 
 ---
 
-### 🛠️ Tech Stack & Skills
+<a id="tech-stack"></a>
+<!-- ================================================================= -->
+<!-- 🛠️ SECTION 2: TECH STACK (Modern Interactive App-Icon Grid)       -->
+<!-- ================================================================= -->
+### 🛠️ Interactive Tech Stack & Ecosystem
 
 <div align="center">
 
-#### 💻 Programming Languages
+#### 💻 Core Programming Languages
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-</p>
-
-#### ☁️ Cloud, DevOps & Backend
-<p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white" alt="AWS Lambda" />
-  <img src="https://img.shields.io/badge/Amazon_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" alt="Amazon EC2" />
-  <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" alt="Amazon S3" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/REST_APIs-02569B?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
-</p>
-
-#### 🤖 AI, Automation & Web Scraping
-<p>
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/AI_Chatbots-00A67E?style=for-the-badge&logo=probot&logoColor=white" alt="AI Chatbots" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium" />
-  <img src="https://img.shields.io/badge/Web_Scraping-FF6F00?style=for-the-badge&logo=apache-airflow&logoColor=white" alt="Web Scraping" />
-</p>
-
-#### 🧰 Developer Tools & Environments
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-</p>
-
-</div>
-
----
-
-### 🚀 Featured Projects
-
-<div align="center">
-
-| Project | Description | Stack | Link |
-| :--- | :--- | :--- | :---: |
-| 🤖 **NeerajGPT** | An intelligent conversational AI chatbot powered by modern LLMs with dynamic interface | `JavaScript` `HTML5` `CSS3` `AI` | [Explore ↗](https://github.com/Neerajparashar1/NeerajGPT) |
-| ☁️ **AWS Lambda EC2 Orchestrator** | Automated serverless infrastructure to manage, trigger, and orchestrate EC2 compute instances on AWS | `AWS Lambda` `EC2` `Python` `Boto3` | [Explore ↗](https://github.com/Neerajparashar1) |
-| 🌐 **CMS Portal** | Full-fledged Content and Academic Portal management system for institutional operations | `PHP` `JavaScript` `MySQL` `CSS3` | [Explore ↗](https://github.com/Neerajparashar1/CMSPORTAL) |
-| ⚡ **Automated Data Scraping Engines** | High-throughput web scraping suites for automated result processing and document analysis | `Python` `Selenium` `Automation` | [Explore ↗](https://github.com/Neerajparashar1) |
-
-</div>
-
----
-
-### 📊 GitHub Analytics & Activity
-
-<div align="center">
-  <p>
-    <a href="https://github.com/Neerajparashar1">
-      <img src="https://github-readme-stats.vercel.app/api?username=Neerajparashar1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0f172a" alt="Neeraj's GitHub Stats" width="48%" />
-    </a>
-    <a href="https://github.com/Neerajparashar1">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Neerajparashar1&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0f172a" alt="Top Languages" width="48%" />
-    </a>
-  </p>
-
-  <p>
-    <a href="https://github.com/Neerajparashar1">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Neerajparashar1&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" width="97%" />
-    </a>
-  </p>
-
-  <p>
-    <a href="https://github.com/Neerajparashar1">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Neerajparashar1&theme=tokyo-night&hide_border=true&area=true&bg_color=0f172a&color=38bdf8&line=38bdf8&point=ffffff" alt="Contribution Graph" width="97%" />
-    </a>
-  </p>
-</div>
-
----
-
-### 🤝 Connect & Collaborate
-
-<div align="center">
-
-Ready to collaborate, discuss a project, or just talk tech? Feel free to reach out!
-
-<p align="center">
-  <a href="mailto:np5668342@gmail.com">
-    <img src="https://img.shields.io/badge/Email-np5668342%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,js,php,html,css,bash,powershell" alt="Languages" />
   </a>
-  &nbsp;
-  <a href="https://github.com/Neerajparashar1">
-    <img src="https://img.shields.io/badge/GitHub-Follow%20%40Neerajparashar1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
+
+#### ☁️ Cloud, DevOps & Infrastructure
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github,postman,vscode" alt="Cloud & DevOps" />
   </a>
-  &nbsp;
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</p>
+
+#### 🌐 Backend, APIs & Full-Stack Frameworks
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mysql,postgres,mongodb,tailwind" alt="Backend & Databases" />
   </a>
 </p>
 
 <br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily Tech Quote" />
+<!-- Detailed Skill Badges -->
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Languages** | `Python` `JavaScript (ES6+)` `PHP` `SQL` `HTML5` `CSS3` `Bash` `PowerShell` |
+| **Cloud & DevOps** | `AWS (EC2, Lambda, S3, API Gateway, CloudWatch)` `Docker` `Git` `GitHub Actions` `Linux` |
+| **AI & Automation** | `OpenAI API` `LLM Chatbots` `Selenium WebDriver` `BeautifulSoup` `Headless Scraping` `REST APIs` |
+| **Backend & Web** | `Node.js` `Express.js` `FastAPI` `MySQL` `PostgreSQL` `Tailwind CSS` `Bootstrap` |
+| **Tools & IDEs** | `VS Code` `Postman` `AWS CLI` `GitHub CLI` `PyCharm` `Chrome DevTools` |
+
+</div>
+
+---
+
+<a id="featured-projects"></a>
+<!-- ================================================================= -->
+<!-- 🚀 SECTION 3: FEATURED PROJECTS (Portfolio Cards)                 -->
+<!-- ================================================================= -->
+### 🚀 Featured Engineering Projects
+
+<div align="center">
+
+| Project Showcase | Description & Highlights | Tech Stack | Live Links |
+| :--- | :--- | :--- | :---: |
+| <br/>🤖 **NeerajGPT**<br/><sub>*AI Conversational Engine*</sub><br/><br/> | • High-performance AI chatbot powered by modern LLM APIs<br/>• Real-time message streaming, intuitive UI & context awareness<br/>• Modular API architecture for custom AI workflows | `JavaScript`<br/>`HTML5/CSS3`<br/>`AI APIs` | <br/>[![Explore](https://img.shields.io/badge/Explore_Repo-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1/NeerajGPT)<br/><br/> |
+| <br/>☁️ **AWS Cloud Orchestrator**<br/><sub>*Serverless EC2 Automation*</sub><br/><br/> | • Serverless compute management via **AWS Lambda** & **EC2**<br/>• Automated lifecycle management to reduce cloud idle cost<br/>• Event-driven execution pipeline configured with Boto3 | `AWS Lambda`<br/>`EC2 / S3`<br/>`Python / Boto3` | <br/>[![Explore](https://img.shields.io/badge/Explore_Repo-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1)<br/><br/> |
+| <br/>🏛️ **CMS Institutional Portal**<br/><sub>*Academic & Admin Management*</sub><br/><br/> | • Comprehensive Content & Institutional Management System<br/>• Role-based access control (RBAC) for admins, faculty & students<br/>• Dynamic assessment metrics, attendance & reporting | `PHP`<br/>`JavaScript`<br/>`MySQL`<br/>`CSS3` | <br/>[![Explore](https://img.shields.io/badge/Explore_Repo-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1/CMSPORTAL)<br/><br/> |
+| <br/>⚡ **Automated Scraping Pipelines**<br/><sub>*Enterprise Web Scraping Suite*</sub><br/><br/> | • High-throughput automated extraction engines for complex portals<br/>• Intelligent CAPTCHA handling, pagination & dynamic JS rendering<br/>• Automated result parsing, structured CSV/JSON data transformation | `Python`<br/>`Selenium`<br/>`JavaScript` | <br/>[![Explore](https://img.shields.io/badge/Explore_Repo-38BDF8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neerajparashar1)<br/><br/> |
+
+</div>
+
+---
+
+<a id="github-analytics"></a>
+<!-- ================================================================= -->
+<!-- 📊 SECTION 4: REAL-TIME GITHUB ANALYTICS DASHBOARD                 -->
+<!-- ================================================================= -->
+### 📊 Real-Time GitHub Analytics & Activity
+
+<div align="center">
+
+  <!-- Stats & Top Languages Row -->
+  <p>
+    <a href="https://github.com/Neerajparashar1">
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=Neerajparashar1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0f172a" alt="Neeraj's GitHub Stats" width="49%" />
+    </a>
+    <a href="https://github.com/Neerajparashar1">
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Neerajparashar1&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0f172a" alt="Top Languages" width="49%" />
+    </a>
+  </p>
+
+  <!-- Streak Stats Card -->
+  <p>
+    <a href="https://github.com/Neerajparashar1">
+      <img src="https://streak-stats.demolab.com/?user=Neerajparashar1&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" width="98%" />
+    </a>
+  </p>
+
+  <!-- Sky-Blue Contribution Graph -->
+  <p>
+    <a href="https://github.com/Neerajparashar1">
+      <img src="https://ghchart.rshah.org/38bdf8/Neerajparashar1" alt="Neeraj's GitHub Contribution Chart" width="98%" />
+    </a>
+  </p>
+
+</div>
+
+---
+
+<a id="roadmap"></a>
+<!-- ================================================================= -->
+<!-- 💡 SECTION 5: INTERACTIVE ACCORDIONS / DEEP DIVE                   -->
+<!-- ================================================================= -->
+### 💡 Deep Dive & Insights
+
+<details>
+  <summary><b>🎯 Current Engineering Roadmap & Objectives</b> <i>(Click to expand)</i></summary>
+  <br/>
+  
+  - 🤖 **Autonomous Multi-Agent Systems:** Developing autonomous agentic workflows combining LLM reasoning with tool execution.
+  - ☁️ **Advanced AWS Cloud Infrastructure:** Deepening certifications and production-grade architectures with Terraform / IaC and Kubernetes.
+  - ⚡ **Distributed Web Automation:** Scaling distributed scrapers with message queues (AWS SQS, Redis) and worker pools.
+  - 🌐 **Open-Source Contributions:** Actively contributing to modern developer tools and open-source ecosystems.
+</details>
+
+<details>
+  <summary><b>⚙️ Engineering Philosophy & Best Practices</b> <i>(Click to expand)</i></summary>
+  <br/>
+  
+  - **Clean Code & Modularity:** Writing self-documenting, maintainable code with strict separation of concerns.
+  - **Serverless-First Mindset:** Designing for low maintenance, high availability, and cost-efficient cloud scaling.
+  - **Security by Design:** Ensuring strict principle of least privilege (IAM), environment variable hygiene, and safe API patterns.
+  - **Continuous Iteration:** Prototyping rapidly, collecting feedback, and optimizing iteratively.
+</details>
+
+<details>
+  <summary><b>💻 Workstation & Development Environment</b> <i>(Click to expand)</i></summary>
+  <br/>
+  
+  - **Operating Systems:** Windows 11 (PowerShell & WSL2 Ubuntu), Linux VPS
+  - **Editor:** Visual Studio Code (Customized Dark Theme, GitHub Copilot, Vim Keybindings)
+  - **Terminal:** Windows Terminal with Oh My Posh & PowerShell
+  - **API Testing:** Postman & Thunder Client
+</details>
+
+---
+
+<a id="contact"></a>
+<!-- ================================================================= -->
+<!-- 📬 SECTION 6: CONNECT & FOOTER (Website Ending)                    -->
+<!-- ================================================================= -->
+<div align="center">
+
+### 📬 Let's Connect & Build Something Great!
+
+Whether you have an interesting project, an opportunity, or just want to talk about AI, Cloud, or Automation:
+
+<p align="center">
+  <a href="mailto:np5668342@gmail.com">
+    <img src="https://img.shields.io/badge/Email-np5668342%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Direct" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Neerajparashar1">
+    <img src="https://img.shields.io/badge/GitHub-Follow%20%40Neerajparashar1-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Follow" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect%20Professionally-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Connect" />
+  </a>
+</p>
+
+<br/>
+
+<!-- Dynamic Daily Dev Quote -->
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Tech Inspiration Quote" />
 
 <br/><br/>
 
-<sub>⭐ <i>Crafted with dedication by <b>Neeraj Parashar</b> • Thanks for visiting!</i> ⭐</sub>
+<!-- Back to Top Link -->
+<p align="right">
+  <a href="#top"><b>⬆ Back to Top</b></a>
+</p>
+
+<!-- Waving Footer Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%" alt="Footer Wave" />
+
+<br/>
+<sub>⭐ <i>Designed & Engineered with ❤️ by <b>Neeraj Parashar</b> • All Rights Reserved</i> ⭐</sub>
 
 </div>
