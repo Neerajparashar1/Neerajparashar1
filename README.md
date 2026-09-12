@@ -18,7 +18,6 @@
   <!-- Top Navigation Bar -->
   <p align="center">
     <a href="#about-me"><b>🧑‍💻 ABOUT</b></a> &nbsp;•&nbsp;
-    <a href="#telemetry"><b>📡 TELEMETRY</b></a> &nbsp;•&nbsp;
     <a href="#architecture"><b>🏛️ ARCHITECTURE</b></a> &nbsp;•&nbsp;
     <a href="#tech-stack"><b>🛠️ TECH STACK</b></a> &nbsp;•&nbsp;
     <a href="#featured-projects"><b>🚀 PROJECTS</b></a> &nbsp;•&nbsp;
@@ -61,18 +60,6 @@
 - 🤖 **Applied AI & Intelligent Agents:** Focused on building practical AI systems, prompt-engineered interfaces, conversational chatbots, and multi-turn LLM integrations.
 - 🌐 **Enterprise Web Platforms:** Proven ability to build full-scale web platforms featuring robust Role-Based Access Control (RBAC), relational database models, and responsive interfaces.
 - 🕷️ **Industrial Web Scraping & Automation:** Deep experience building resilient extraction pipelines with headless Selenium and BeautifulSoup, designed to handle dynamic single-page applications and complex workflows.
-
----
-
-<a id="telemetry"></a>
-<!-- ================================================================= -->
-<!-- 📡 SECTION: LIVE CLOUD & SYSTEM TELEMETRY HUB                     -->
-<!-- ================================================================= -->
-### 📡 Mission Control & Infrastructure Telemetry
-
-<div align="center">
-  <img src="./telemetry-hud.svg" width="100%" alt="Live Mission Control & Telemetry HUD" />
-</div>
 
 ---
 
